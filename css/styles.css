@@ -3944,7 +3944,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #bd5d38;
+  color: #af755d;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3954,7 +3954,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #974a2d;
+  color: #38261f;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4471,7 +4471,7 @@ textarea.form-control-lg {
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(15, 8, 143, 0.9);
 }
 
 .navbar-dark .navbar-brand {
@@ -4481,17 +4481,20 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: #000008;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: #040411;
+  background-color: white;
+  font-weight: 900;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #281616;
+  font-weight: 900;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
@@ -4506,7 +4509,7 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a,
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: #1c0606;
 }
 
 .card {
@@ -7810,7 +7813,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #EFEFEF;
 }
 
 .bg-secondary {
@@ -11312,16 +11315,16 @@ p.lead {
 
 .subheading {
   font-family: "Heebo",sans-serif;
-  font-weight: 500;
+  font-weight:700;
   font-size: 1.5rem;
 }
 
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
+
 }
 #sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
@@ -11350,7 +11353,6 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11376,7 +11378,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #020911;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
