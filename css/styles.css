@@ -7827,7 +7827,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #EFEFEF;
+  background-color: #FFFFFF;
 }
 
 .bg-secondary {
@@ -11334,6 +11334,11 @@ p.lead {
 }
 
 #sideNav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#topNav {
   padding-left: 1rem;
   padding-right: 1rem;
 
