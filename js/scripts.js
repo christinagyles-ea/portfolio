@@ -31,5 +31,18 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+        // Collapse responsive navbar when toggler is visible
+        const navbarToggler = document.body.querySelector('.overlay');
+        const responsiveNavItems = [].slice.call(
+            document.querySelectorAll('#navbarResponsive .nav-link')
+        );
+        responsiveNavItems.map(function (responsiveNavItem) {
+            responsiveNavItem.addEventListener('click', () => {
+                if (window.getComputedStyle(mynav).display !== 'none') {
+                    navbarToggler.click();
+                }
+            });
+        });
+
 });
 

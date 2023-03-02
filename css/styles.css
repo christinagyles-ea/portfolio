@@ -4101,10 +4101,11 @@ textarea.form-control-lg {
 .navbar-toggler:hover {
   text-decoration: none;
 }
-.navbar-toggler:focus {
+.navbar-toggler {
   text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.25rem;
+
 }
 
 .navbar-toggler-icon {
@@ -4407,6 +4408,7 @@ textarea.form-control-lg {
 .navbar-expand .navbar-collapse {
   display: flex !important;
   flex-basis: auto;
+
 }
 .navbar-expand .navbar-toggler {
   display: none;
@@ -4512,6 +4514,7 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0);
   border-color: rgba(255, 255, 255, 0.1);
 }
+
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -11378,6 +11381,7 @@ p.lead {
     flex-grow: 0;
     width: 100%;
     margin-bottom: auto;
+    width: 100%;
   }
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
@@ -11437,5 +11441,53 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
   }
 }
