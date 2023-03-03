@@ -11483,6 +11483,7 @@ section.resume-section .resume-section-content {
   color: #818181;
   display: block;
   transition: 0.3s;
+  line-height: 2;
 }
 
 .overlay a:hover, .overlay a:focus {
